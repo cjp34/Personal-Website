@@ -40,9 +40,10 @@
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   overflow: hidden;
+  position: sticky;
 }
 
 li a {
@@ -60,10 +61,14 @@ li b {
   color: black;
   font-size: 36px;
   text-align: center;
-  padding: 14px 16px;
+  margin-left: 1cm;
   text-decoration: none;
 }
 
 li a:hover {
   background-color: lightgray;
+}
+
+.App {
+  background-image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aarp.org%2Ftravel%2Fdestinations%2Funited-states%2Fwashington-dc%2F&psig=AOvVaw1H30mDQP6aD7EfkR-xb7wr&ust=1592181034484000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMD0teWGgOoCFQAAAAAdAAAAABAD";
 }
