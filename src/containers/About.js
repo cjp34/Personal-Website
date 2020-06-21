@@ -3,14 +3,14 @@ import '../App.css';
 
 
 
-const Contact = () => {
+const About = () => {
 
 
     return(
         <div>
-            Contact
+            About
         </div>
     )
 }
 
-export default Contact;
+export default About;
