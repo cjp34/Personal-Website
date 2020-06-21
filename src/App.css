@@ -17,18 +17,18 @@ li b {
   float: left;
   display: block;
   color: black;
-  font-size: 36px;
+  font-size: 34px;
   text-align: center;
-  margin-left: 1cm;
+  margin-left: 0.25cm;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: lightgray;
+  background-color: azure;
   border-radius: 15px;
 }
 
-.App {
-  background-image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aarp.org%2Ftravel%2Fdestinations%2Funited-states%2Fwashington-dc%2F&psig=AOvVaw00ysiCaDyh25Jzp59qB9SF&ust=1592853228402000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKD7ounOk-oCFQAAAAAdAAAAABAD';
+body {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aarp.org%2Ftravel%2Fdestinations%2Funited-states%2Fwashington-dc%2F&psig=AOvVaw00ysiCaDyh25Jzp59qB9SF&ust=1592853228402000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKD7ounOk-oCFQAAAAAdAAAAABAD');
 }
 
