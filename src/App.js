@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar'
 import Contact from './containers/Contact'
 import About from './containers/About'
+import Portfolio from './containers/Portfolio'
 
 class App extends React.Component {
   constructor() {
@@ -19,9 +20,9 @@ class App extends React.Component {
       <Router>
           <Navbar/>
         <Switch>
-    <Route path='/about/' render={() => <About/> }/>
+          <Route path='/about/' render={() => <About/> }/>
           <Route path='/contact/' render={() => <Contact/> }/>
-
+          <Route path='/portfolio/' render={() => <Portfolio/>}/>
         </Switch>
       </Router>
           
