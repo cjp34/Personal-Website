@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom'
+import {Route, Switch, BrowserRouter as Router} from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar'
 
@@ -14,7 +14,13 @@ class App extends React.Component {
   render() {
     return (
     <div className="App">
+      <Router>
           <Navbar/>
+        <Switch>
+        
+        </Switch>
+      </Router>
+          
     </div>
     );
   }
