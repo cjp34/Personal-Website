@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
     return(
-        <div>
+        <div class="navbar">
             <ul>
                 <li><a href="contact">Contact</a></li>
                 <li><a href="https://medium.com/@carlparm" target="_blank" rel="noopener noreferrer">Blog</a></li>

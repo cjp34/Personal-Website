@@ -28,13 +28,17 @@ li a:hover {
   border-radius: 15px;
 }
 
-.about {
-  background-color: ivory;
-}
-
 .sectionHeaders {
   text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
 }
+
+.navbar {
+  background-color:ivory;
+}
+
+
 
 
 
