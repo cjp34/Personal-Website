@@ -8,7 +8,7 @@ const Contact = () => {
 
     return(
         <div>
-            Contact
+            <h2 class='sectionHeaders'>Contact</h2>
         </div>
     )
 }

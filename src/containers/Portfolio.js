@@ -8,7 +8,7 @@ const Contact = () => {
 
     return(
         <div>
-            Portfolio
+            <h2 class='sectionHeaders'>Portfolio</h2>
         </div>
     )
 }
