@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Contact from './containers/Contact'
 import About from './containers/About'
 import Portfolio from './containers/Portfolio'
+import Skills from './containers/Skills'
 
 class App extends React.Component {
   constructor() {
@@ -23,6 +24,7 @@ class App extends React.Component {
           <Route path='/about/' render={() => <About/> }/>
           <Route path='/contact/' render={() => <Contact/> }/>
           <Route path='/portfolio/' render={() => <Portfolio/>}/>
+          <Route path='/skills/' render={() => <Skills/>}/>
         </Switch>
       </Router>
           
